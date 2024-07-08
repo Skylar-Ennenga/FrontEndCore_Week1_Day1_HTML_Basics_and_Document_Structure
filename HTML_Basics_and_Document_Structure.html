@@ -1,0 +1,128 @@
+<!--
+1. Formatting and Lists with Recipes
+
+Objective: The aim of this assignment is to explore and practice using text formatting tags and creating lists in HTML, inspired by real-world examples from Recipes.
+
+Task 1: Creating Lists Create a recipe for "Classic Chocolate Chip Cookies" with a header and a short paragraph description. Then, add the ingredients into an unordered list and the steps into an ordered list. You can use the following information:
+
+2. Hyperlinks and Images to Recipe
+
+Objective: The aim of this assignment is to practice creating hyperlinks and inserting images in HTML.
+
+Task 1: Creating Hyperlinks Now, add a hyperlink to an actual recipe URL for the "Classic Chocolate Chip Cookies" recipe using this Recipe Url: https://www.ghirardelli.com/recipes/classic-chocolate-chip-cookies-rec1016. 
+
+Expected Outcome: Recreate the hyperlinks using the copied url, ensuring they function as intended.
+
+Task 2: Inserting Images Find an image of any yummy chocolate chip cookies through a Google image search. Include the image URL in your HTML document.
+
+Expected Outcome: Insert the image using the copied url, ensuring it displays correctly.
+
+3. Special Characters and Comments on GitHub
+
+Objective: The aim of this assignment is to practice using special characters and HTML comments in HTML.
+
+Task 1: Special Characters 
+
+Add the following paragraph to the end of the recipe page HTML code:
+
+<p>Don't forget to enjoy your Class Chocolate Chip Cookies with a tall glass of milk &ndash; the perfect combination!</p>
+
+    Ensure that the "&" character is properly encoded as "&" to avoid HTML parsing errors.
+
+Expected Outcome: Recreate the text with special characters using the copied code, ensuring proper rendering.
+
+
+Task 2: HTML Comments Add comments for each Task describing what each portion of the added HTML code is doing. 
+
+Expected Outcome: Include the HTML comments in your HTML document, keeping them invisible to users but useful for developers.
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>Classic Chocolate Chip Cookies</title> <!-- This line is used to give the website a title whicxh will show up on the tab of the browser -->
+  </head>
+
+  <body>
+    <h1>Classic Chocolate Chip Cookies</h1> <!-- This line is used to give the website a header -->
+    <p> <!-- This line is used to give the website a paragraph -->
+      Today we will learn how to make Grandmas famous classic chocolate chip 
+      cookies
+    </p>
+    <section> <!-- This line is used to give the website a section -->
+      <h1>Ingredients</h1> <!-- This line is used to give the website a header -->
+      <ul> <!-- This line is used to give the website an unordered list which will come out with bullets -->
+        <li>1 cup (2 sticks) unsalted butter, softened</li> <!-- This line is used to give the website a list item -->
+        <li>3/4 cup granulated sugar</li>
+        <li>3/4 cup packed brown sugar</li>
+        <li>1 teaspoon vanilla extract</li>
+        <li>2 large eggs</li>
+        <li>2 1/4 cups all-purpose flour</li>
+        <li>1 teaspoon baking soda</li>
+        <li>1/2 teaspoon salt</li>
+        <li>2 cups semisweet chocolate chips</li>
+        <li>1 cup chopped nuts (optional)</li>
+      </ul>
+      <h1>Steps</h1> 
+      <ol> <!-- This line is used to give the website an ordered list which will come out with numbers -->
+        <li>
+          Preheat the oven to 375°F (190°C). Line baking sheets with parchment
+          paper or silicone baking mats.
+        </li>
+        <li>
+          In a large mixing bowl, cream together the softened butter, granulated
+          sugar, brown sugar, and vanilla extract until light and fluffy.
+        </li>
+        <li>Add the eggs, one at a time, beating well after each addition.</li>
+        <li>
+          In a separate bowl, whisk together the flour, baking soda, and salt.
+          Gradually add the dry ingredients to the wet ingredients, mixing until
+          just combined.
+        </li>
+        <li>
+          Stir in the chocolate chips and chopped nuts (if using) until evenly
+          distributed throughout the dough.
+        </li>
+        <li>
+          Drop rounded tablespoons of dough onto the prepared baking sheets,
+          spacing them about 2 inches apart.
+        </li>
+        <li>
+          Bake in the preheated oven for 9 to 11 minutes, or until the edges are
+          golden brown.
+        </li>
+        <li>
+          Remove from the oven and allow the cookies to cool on the baking
+          sheets for a few minutes before transferring them to wire racks to
+          cool completely.
+        </li>
+      </ol>
+    </section> 
+    <section>
+      <h1>Enjoy!</h1>
+      <p> 
+        For further information about Classic Chocolate Chip Cookies please
+        visit:
+        <a 
+          href="https://www.ghirardelli.com/recipes/classic-chocolate-chip-cookies-rec1016"
+        >
+          Cookie Secrets</a
+        >
+        <!-- ^^^^ This line is used to give the website a hyperlink -->
+      </p>
+      <h3>Follow this recipe, and I can guarantee your cookies will turn out just like these!</h3>
+      <P>
+        <img width="300px" height="300px"
+          src = "https://img.freepik.com/free-psd/baking-delicious-chocolate-chip-cookies-isolated-transparent-background_191095-16880.jpg?w=1060&t=st=1720473387~exp=1720473987~hmac=af576a24630aae4e085941570f51157144598a10ffdabaa6bb7786c946a4ea5d"
+          alt = "Classic Chocolate Chip Cookies"
+        />
+        <!-- ^^^^ This line is used to give the website an image -->
+      </P>
+    </section>
+        <p>Don't forget to enjoy your &quot;Classic Chocolate Chip Cookies&quot; with a tall glass of milk &ndash; the perfect combination!</p> <!-- we use &ndash; to create a long dash and the &quot; to add ""-->
+  </body>
+</html>
